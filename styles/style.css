@@ -3,3 +3,17 @@ body {
   font-family: "Lexend Deca", sans-serif;
   background-color: hsl(233, 47%, 7%);
 }
+
+
+
+@media (min-width: 501px) {
+  .mobileHeader {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+    .desktopHeader {
+        display: none;
+    }
+}
